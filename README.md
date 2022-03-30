@@ -21,6 +21,7 @@ Realizada en PHP siguiendo el patrón de diseño MVC
 ./controladores -- Clases con las diferentes funciones de la app
 ./modelos -- Clases de la app
 ./vistas -- front de las diferentes opciones
+./vistas/template.php -- plantilla que incluye el menú de la app
 conexion.php -- conexión a BBDD
 index.php
 login.php 

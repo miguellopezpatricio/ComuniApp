@@ -122,13 +122,13 @@ ob_start();
 <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
 
 <div class="panel-heading">
-  <strong>COMUNIDAD DE PROPIETARIOS JARDIN DEL SUR</strong>
+  <strong>COMUNIDAD DE PROPIETARIOS BUENA VECINDAD</strong>
 </div>
   <div class="panel-body">
-  NIF: H-35.772.012<br>
-  C/Punta de los Molinillos nº19. Costa Calma<br>
-  FUERTEVENTURA CP:35627<br>
-  comunidad.jardindelsur@gmail.com
+  NIF: H-XXXXXXXX<br>
+  C/DIRECCION<br>
+  PROVINCIA<br>
+  MAIL@gmail.com
 <br>
 </div>
 
@@ -269,7 +269,7 @@ echo $muestraDatos;
 <br/>
 <div class="row card table-bordered">
 <div class="panel-heading">
-  Número de cuenta: CAIXABANK ES43 2100 4792 3613 0043 0857
+  Número de cuenta: xxxxxxxxxxxxxxxxxxx
   
   <br/>Concepto: VIVIENDA,  <strong>Ej: "A1 COMUNIDAD"</strong>
   <br>
@@ -320,20 +320,20 @@ $pdf->stream(); // forzar descarga pdf
 
 $mail = new PHPMailer(); // create the mail
 $mail->IsSMTP(); // telling the class to use SMTP
-$mail->Host = "mail.bitmaxico.com"; // SMTP server
-$mail->Username = 'comunidad.jardindelsur@bitmaxico.com';
-$mail->Password = '@dmin_1234';
+$mail->Host = "mail.SERVIDOR.com"; // SMTP server
+$mail->Username = 'mail@mail.com';
+$mail->Password = 'password';
 
 
-$mail->SetFrom("comunidad.jardindelsur@bitmaxico.com");
-// $mail->AddReplyTo("mlpatri@yahoo.com");
-$mail->addReplyTo('comunidad.jardindelsur@gmail.com','COMUNIDAD JARDIN DEL SUR');
-$mail->AddAddress('mlpatri@yahoo.com','ADMIN APP');
+$mail->SetFrom("mail@mail.com");
+// $mail->AddReplyTo("otromail.com");
+$mail->addReplyTo('mimail@gmail.com','COMUNIDAD');
+$mail->AddAddress('mimail.com','ADMIN APP');
 // $mail->AddAddress($correoInquilino);
 // $mail->AddAddress($correoRepresentante);
 
 // COPIA OCULTA: SI EXISTE CORREO LO UTILIZA
-$mail->AddBCC('comunidad.jardindelsur@gmail.com');
+$mail->AddBCC('mail@gmail.com');
 $mail->AddBCC($correoPropietario);
 $mail->AddBCC($correoInquilino);
 $mail->AddBCC($correoRepresentante);
