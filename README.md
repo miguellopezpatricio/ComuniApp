@@ -1,4 +1,4 @@
-# ComuniApp
+# ComuniApp 2.0 beta
 Aplicación de gestión de Comunidades de propietarios
 
 ![imaxe da aplicación](comuniapp.gif)
@@ -27,6 +27,7 @@ Realizada en PHP siguiendo el patrón de diseño MVC
 * Creación de diferentes roles de usuario
 
 ## TO-DO:
+* Modales para previsualización de recibos
 * Botón envío masivo de recibos mensuales
 * Opción de gestión de BBDD desde aplicación
 
