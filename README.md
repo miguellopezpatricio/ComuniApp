@@ -25,7 +25,7 @@ conexion.php -- conexión a BBDD
 index.php
 login.php 
 login_proceso.php -- proceso de login
-logou_proceso.php -- proceso de logout
+logout_proceso.php -- proceso de logout
 rooteador.php -- redireccionamiento en función del rol de usuario
 ~~~
 
