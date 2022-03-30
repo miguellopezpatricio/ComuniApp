@@ -10,7 +10,7 @@ Realizada en PHP siguiendo el patrón de diseño MVC
 * Uso de la librería DOMPDF para generar pdf. 
 * Uso de PHPMailer para envío de correos desde la aplicación.
 
-# Script SQL para creación de tablas necesarias
+## Script SQL para creación de tablas necesarias
  Se debe crear una BBDD llamada "comunidad_beta" en el gestor
 ~~~
     Descargar desde repositorio el archivo comunidad.sql
