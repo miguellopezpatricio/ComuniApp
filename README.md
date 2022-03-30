@@ -16,6 +16,18 @@ Realizada en PHP siguiendo el patrón de diseño MVC
     Descargar desde repositorio el archivo comunidad.sql
 ~~~
 
+## Estructura de la aplicación
+~~~
+./controladores -- Clases con las diferentes funciones de la app
+./modelos -- Clases de la app
+./vistas -- front de las diferentes opciones
+conexion.php -- conexión a BBDD
+index.php
+login.php 
+login_proceso.php -- proceso de login
+logou_proceso.php -- proceso de logout
+rooteador.php -- redireccionamiento en función del rol de usuario
+~~~
 
 ## Últimas actualizaciones:
 * Aviso en icono de envío de recibos
