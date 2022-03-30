@@ -138,8 +138,8 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `nombre`, `correo`, `rol`, `clave`, `observaciones`) VALUES
-(1, 'Administrador', 'admin@comunidad.com', 1, 'C3562719', 'control total sobre la aplicación\r\nrol 1 = admin / rol 2 = user'),
-(2, 'contadores', 'user@aplicacion.com', 2, 'Cont1He', 'usuario con acceso limitado a contadores\r\nrol 1 = admin / rol 2 = user');
+(1, 'Administrador', 'admin@comunidad.com', 1, '1234', 'control total sobre la aplicación\r\nrol 1 = admin / rol 2 = user'),
+(2, 'contadores', 'user@aplicacion.com', 2, 'contadores', 'usuario con acceso limitado a contadores\r\nrol 1 = admin / rol 2 = user');
 
 --
 -- Índices para tablas volcadas
