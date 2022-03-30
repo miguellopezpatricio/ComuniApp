@@ -123,11 +123,11 @@ if ($listaPersonas != null) {
 ?>
 
 <div class="card-header">
-  <h3>COMUNIDAD DE PROPIETARIOS JARDIN DEL SUR</h3>
-  NIF: H-35.772.012<br>
-  C/Punta de los Molinillos nº19. Costa Calma<br>
-  FUERTEVENTURA CP:35627<br>
-  comunidad.jardindelsur@gmail.com
+  <h3>COMUNIDAD DE PROPIETARIOS BUENA VECINDAD</h3>
+  NIF: xxxxxxxx<br>
+  C/DIRECCION<br>
+  PROVINCIA<br>
+  comunidad@gmail.com
 
 </div>
 <br>
@@ -270,7 +270,7 @@ echo $muestraDatos;
 
 <br/>
 <div class="mb-3">
-  <h5>Número de cuenta: CAIXABANK ES43 2100 4792 3613 0043 0857
+  <h5>Número de cuenta: xxxxxxxxxxx
   
   <br/>Concepto: VIVIENDA,  <strong>Ej: "A1 COMUNIDAD"</strong></h5>
   <br>
@@ -319,20 +319,20 @@ include_once('mailer/class.phpmailer.php');
 
 $mail = new PHPMailer(); // create the mail
 $mail->IsSMTP(); // telling the class to use SMTP
-$mail->Host = "mail.bitmaxico.com"; // SMTP server
-$mail->Username = 'comunidad.jardindelsur@bitmaxico.com';
-$mail->Password = '@dmin_1234';
+$mail->Host = "mail.SERVIDOR.com"; // SMTP server
+$mail->Username = 'comunidad@MAIL.com';
+$mail->Password = 'PASS';
 
 
 $mail->SetFrom("comunidad.jardindelsur@bitmaxico.com");
 // $mail->AddReplyTo("mlpatri@yahoo.com");
-$mail->addReplyTo('comunidad.jardindelsur@gmail.com','COMUNIDAD JARDIN DEL SUR');
-// $mail->AddAddress('mlpatri@yahoo.com', 'COMUNIDAD JARDIN DEL SUR');
+$mail->addReplyTo('comunidad@gmail.com','COMUNIDAD');
+// $mail->AddAddress('MAIL.com', 'COMUNIDAD');
 // $mail->AddAddress($correoInquilino);
 // $mail->AddAddress($correoRepresentante);
 
 // COPIA OCULTA: SI EXISTE CORREO LO UTILIZA
-$mail->AddBCC('comunidad.jardindelsur@gmail.com');
+$mail->AddBCC('comunidad@gmail.com');
 $mail->AddBCC($correoPropietario);
 $mail->AddBCC($correoInquilino);
 $mail->AddBCC($correoRepresentante);
