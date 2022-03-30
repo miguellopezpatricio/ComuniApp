@@ -10,6 +10,13 @@ Realizada en PHP siguiendo el patrón de diseño MVC
 * Uso de la librería DOMPDF para generar pdf. 
 * Uso de PHPMailer para envío de correos desde la aplicación.
 
+# Script SQL para creación de tablas necesarias
+ Se debe crear una BBDD llamada "comunidad_beta" en el gestor
+~~~
+    Descargar desde repositorio el archivo comunidad.sql
+~~~
+
+
 ## Últimas actualizaciones:
 * Aviso en icono de envío de recibos
 * Rediseño apartado CONTADORES
@@ -19,7 +26,8 @@ Realizada en PHP siguiendo el patrón de diseño MVC
 * Implementada conexión segura en hosting
 * Creación de diferentes roles de usuario
 
-## TODO:
+## TO-DO:
 * Botón envío masivo de recibos mensuales
+* Opción de gestión de BBDD desde aplicación
 
 
